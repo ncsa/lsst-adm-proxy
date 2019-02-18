@@ -2,7 +2,6 @@
 function FindProxyForURL(url, host) {
  
     // Local proxy ports
-    var proxy_metris = "SOCKS 127.0.0.1:5699";
     var proxy_lsstpup = "SOCKS 127.0.0.1:5700";
     var proxy_cerb4 = "SOCKS 127.0.0.1:5701";
 
