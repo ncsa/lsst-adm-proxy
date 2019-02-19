@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
     if ( host == "vsphere.ncsa.illinois.edu" )
         return proxy_cerb4
 
-    if ( host == "lsst-git.ncsa.illinois.edu" )
+    if ( host == "lsst-git.ncsa.illinois.edu" || host == "141.142.181.4" )
         return proxy_lsstpup
 
     // Example
